@@ -89,6 +89,7 @@ var ReactTags = _react2.default.createClass({
     this.setState({
       classNames: _extends({}, DefaultClassNames, this.props.classNames)
     });
+    console.log("What the hell is going on?");
   },
   componentDidMount: function componentDidMount() {
     if (this.props.autofocus && !this.props.readOnly) {
